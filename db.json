@@ -1,0 +1,36 @@
+{
+  "NavData":{
+      "l0Item":[
+          {
+              "id": "home",
+              "title":"Home",
+              "url":"/",
+              "children":[]
+          },
+          {
+              "id": "about",
+              "title":"About",
+              "url":"/about",
+              "children":[]
+          },
+          {
+              "id": "service",
+              "title":"Sevices",
+              "url":"/services",
+              "children":[]
+          },
+          {
+              "id": "contact",
+              "title":"Conatct Us",
+              "url":"/contact",
+              "children":[]
+          },
+          {
+              "id": "blog",
+              "title":"Blog",
+              "url":"/blog",
+              "children":[]
+          }
+      ]
+  }
+}

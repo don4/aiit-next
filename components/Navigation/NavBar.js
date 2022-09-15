@@ -6,7 +6,7 @@ const NavBar = ({ props }) => {
     const [navData, setNavData] = useState({})
     useEffect(()=>{
         const fetchNavData = async () =>{
-            const response = await fetch('http://localhost:4000/NavData')
+            const response = await fetch('api/navigation')
             const data = await response.json();
             setLoading(false)
             setNavData(data)
